@@ -1,0 +1,129 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.reset-margin {
+  margin: 0 auto !important; }
+
+.containerBanner {
+  margin-top: -35px;
+  width: 100%;
+  /*margin-top: 15px;*/ }
+
+.cardprodutos {
+  position: relative;
+  background: #fbfbfb;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 030ms ease-out;
+  cursor: pointer; }
+  .cardprodutos:hover {
+    transform: scale(1.1); }
+
+form {
+  margin-bottom: 0px; }
+
+input {
+  background: #fff !important;
+  border: solid 1px #ccc !important;
+  padding: 5px 5px !important;
+  height: auto !important; }
+
+.layerLeft {
+  position: absolute;
+  right: 0px;
+  width: 200px; }
+
+.layerRight {
+  position: absolute;
+  display: block;
+  left: 0px;
+  width: 240px;
+  bottom: 0; }
+
+.navDeskCont {
+  position: relative;
+  top: -20px;
+  height: 100px;
+  padding-top: 20px; }
+
+.containerBanner img {
+  width: 100%;
+  /*margin-top: 15px;*/ }
+
+.fac-content {
+  position: fixed;
+  right: 0px;
+  top: 250px;
+  width: 35px;
+  height: 60px;
+  background: blue;
+  border-radius: 30px 0px 0px 30px;
+  cursor: pointer;
+  -webkit-box-shadow: -16px 6px 39px -17px #a6a6a6;
+  -moz-box-shadow: -16px 6px 39px -17px #a6a6a6;
+  box-shadow: -16px 6px 39px -17px #a6a6a6;
+  z-index: 8888;
+  opacity: 0.2; }
+  .fac-content:hover {
+    opacity: 1;
+    transform: scale(1.1); }
+  .fac-content img {
+    display: block;
+    position: relative;
+    right: -9px;
+    width: 26px;
+    margin-top: 15px; }
+
+.gmais {
+  position: fixed;
+  right: 0px;
+  top: 320px;
+  width: 35px;
+  height: 60px;
+  background: red;
+  border-radius: 30px 0px 0px 30px;
+  cursor: pointer;
+  -webkit-box-shadow: -16px 6px 39px -17px #a6a6a6;
+  -moz-box-shadow: -16px 6px 39px -17px #a6a6a6;
+  box-shadow: -16px 6px 39px -17px #a6a6a6;
+  z-index: 8888;
+  opacity: 0.2;
+  transition: transform 0.2s ease-in-out;
+  transition: opacity 0.4s ease-in-out; }
+  .gmais:hover {
+    opacity: 1;
+    transform: scale(1.1); }
+  .gmais img {
+    display: block;
+    position: relative;
+    right: -9px;
+    width: 26px;
+    margin-top: 15px; }
+
+.whats-cont {
+  position: fixed;
+  right: 0px;
+  top: 390px;
+  width: 35px;
+  height: 60px;
+  background: green;
+  border-radius: 30px 0px 0px 30px;
+  cursor: pointer;
+  -webkit-box-shadow: -16px 6px 39px -17px #a6a6a6;
+  -moz-box-shadow: -16px 6px 39px -17px #a6a6a6;
+  box-shadow: -16px 6px 39px -17px #a6a6a6;
+  z-index: 8888;
+  opacity: 0.2; }
+  .whats-cont:hover {
+    opacity: 1;
+    transform: scale(1.1); }
+  .whats-cont img {
+    display: block;
+    position: relative;
+    right: -9px;
+    width: 26px;
+    margin-top: 15px; }
+
+/*# sourceMappingURL=main.css.map */
